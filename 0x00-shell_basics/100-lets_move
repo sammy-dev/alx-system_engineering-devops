@@ -1,5 +1,3 @@
 #!/bin/bash
 mkdir -p /tmp/u
-for file in [A-Z]*; do
-    mv "$file" /tmp/u/
-done
+mv "$file" /tmp/u/
