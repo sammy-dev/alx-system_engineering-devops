@@ -1,2 +1,14 @@
 #!/bin/bash
-ls -la . ../root
+
+# List files in the current directory in long format
+echo "Listing files in the current directory:"
+ls -la
+
+# Move to the parent directory and list files in long format
+echo "Listing files in the parent directory:"
+cd ..
+ls -la
+
+# List files in the /boot directory in long format
+echo "Listing files in the /boot directory:"
+ls -la /boot
