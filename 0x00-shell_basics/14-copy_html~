@@ -1,0 +1,8 @@
+#!/bin/bash
+parent_dir="$(dirname "$(pwd)")"
+for html_file in *.html; do
+    if [ ! -e "$parent_dir/$html_file" ] || [ "$html_file" -nt "$parent_dir/$html_file" ]; then
+        cp "$html_file" "$parent_dir/"
+        echo "Copied $html_file to $parent_dir/"
+    fi
+done
