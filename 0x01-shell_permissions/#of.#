@@ -1,0 +1,11 @@
+
+julien@ubuntu:/tmp/h$ ./2-groups
+julien adm cdrom sudo dip plugdev lpadmin sambashare
+julien@ubuntu:/tmp/h$
+Note: depending on the user, you will get a different output.
+
+Repo:
+
+GitHub repository: alx-system_engineering-devops
+Directory: 0x01-shell_permissions
+File: 2-groups0;276;0c
